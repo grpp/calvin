@@ -1,0 +1,7 @@
+@import '~react-toolbox/lib/app_bar/theme';
+@import '../../../../sass/global';
+
+.appBar {
+	background-color: $primary-color;
+	height:64px;
+}

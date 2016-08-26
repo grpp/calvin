@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'mixins';
+
+$font-stack: "source-serif-pro",Georgia,"Times New Roman",Times,serif;
+$header-font: "source-sans-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+$text-font: $font-stack;
+
+$heading-font-size: 26px;
+$secondary-header-font-size: 21px;
+$text-font-size: 13px;

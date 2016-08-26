@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'src'),
     filename: 'client.min.js',
-    publicPath: '/'
+    publicPath: './public'
   },
   resolve: {
     extensions: ['', '.scss', '.css', '.js', '.json'],

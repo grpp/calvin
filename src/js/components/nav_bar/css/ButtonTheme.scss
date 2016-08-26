@@ -1,0 +1,11 @@
+@import "~react-toolbox/lib/colors";
+@import "~react-toolbox/lib/button/mixins";
+@import "../../../../sass/global";
+
+@include btn-colors("primary", $primary-color-text, $primary-color-text, rgba($primary-color, .2));
+
+$button-font-size: 1.2rem;
+
+.button {
+	font-size: $button-font-size;
+}
