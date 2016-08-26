@@ -5,12 +5,16 @@ import Footer from './Footer'
 import {Grid} from 'reflexbox'
 import 'normalize.css/normalize.css'
 
+var style = {
+	marginTop: '64px',
+}
+
 export default class App extends React.Component {
 	render(){
 		return (
 			<div>
 				<NavigationBar />
-				<section style={{marginTop: '64px'}}>
+				<section style={style}>
 					<HeroPanel />
 				</section>
 			</div>
